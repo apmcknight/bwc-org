@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/styles.css">
+    <title>{{ page.title }}</title>
+</head>
+<body>
+    <nav class="navigationBar">
+        <p>Brothers</p>
+        <a href="/">Home</a>
+        <a href="/events">Events</a>
+        <a href="/contact">Contact</a>
+        <a href="/blog">Blog</a>
+    </nav>
+
+    <h1>{{ page.caption }}</h1>
+
+    <section>
+        {{ content }}
+    </section>
+
+    <footer>
+        &copy; 2020
+    </footer>
+</body>
+</html>
